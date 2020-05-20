@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+
+  <filter root="/apps/site"/>
+
+  <filter root="/apps/site/install" mode="update">
+    <include pattern=".*site-core-bundle.*\.jar"/>
+  </filter>
+  
+  <filter root="/etc/ui-frameworks/site-framework"/>
+  <filter root="/etc/vendor-libraries/site-vendor-library"/>
+<!--  <filter root="/etc/vendor-libraries/bootstrap"/>-->
+  
+</workspaceFilter>
